@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "a5967978-404f-4f44-b320-e2e71566abc0",
+		"name": "evatro-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17146086"
+	},
+	"item": [
+		{
+			"name": "Get City Temperature By Name with query JSON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"query\": \"Istanbul\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://evatro-assignment-188fa7ca9c61.herokuapp.com/temperature",
+					"protocol": "https",
+					"host": [
+						"evatro-assignment-188fa7ca9c61",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"temperature"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get City Temperature By Query Param",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://evatro-assignment-188fa7ca9c61.herokuapp.com/temperature?q=Istanbul",
+					"protocol": "https",
+					"host": [
+						"evatro-assignment-188fa7ca9c61",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"temperature"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Istanbul"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
