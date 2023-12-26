@@ -24,5 +24,6 @@ public class CityTemperature {
     private String temperature;
 
     @Column(name = "unit")
+    @Enumerated(EnumType.STRING)
     private TemperatureUnit unit;
 }

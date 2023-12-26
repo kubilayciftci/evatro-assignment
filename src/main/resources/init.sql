@@ -8,13 +8,13 @@ CREATE TABLE IF NOT EXISTS `CITY_TEMPERATURE`
 );
 
 INSERT INTO CITY_TEMPERATURE (`name`, `temperature`, `unit`)
-VALUES ('Istanbul', '8', 'celcius');
+VALUES ('Istanbul', '8', 'CELCIUS');
 
 INSERT INTO CITY_TEMPERATURE (`name`, `temperature`, `unit`)
-VALUES ('Prag', '10', 'celcius');
+VALUES ('Prag', '10', 'CELCIUS');
 
 INSERT INTO CITY_TEMPERATURE (`name`, `temperature`, `unit`)
-VALUES ('Los Angeles', '9', 'celcius');
+VALUES ('Los Angeles', '9', 'CELCIUS');
 
 INSERT INTO CITY_TEMPERATURE (`name`, `temperature`, `unit`)
-VALUES ('Kiev',  '-5', 'celcius');
+VALUES ('Kiev',  '-5', 'FAHRENHEIT');
