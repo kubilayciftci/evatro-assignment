@@ -14,7 +14,7 @@ JSON file content is as follows.
 
 - This project was deployed to the production environment with Heroku. You can test the project in a live environment.
 
-### Heroku URL : https://evatro-assignment-188fa7ca9c61.herokuapp.com/temperature
+### Heroku URL : https://evatro-assignment-188fa7ca9c61.herokuapp.com
 
 - You can send a request to the live environment and receive a response by running the following curl requests in the browser.
 
